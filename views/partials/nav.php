@@ -9,7 +9,8 @@
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                         <a href="/" class="<?= is_url('/') ?>" aria-current="page">Home</a>
-                        <a href="/about" class="<?= is_url('/about') ?>">About Us</a>
+                        <a href="/about" class="<?= is_url('/about') ?>">About</a>
+                        <a href="/notes" class="<?= is_url('/notes') ?>">Notes</a>
                         <a href="/contact" class="<?= is_url('/contact') ?>">Contact</a>
                     </div>
                 </div>
